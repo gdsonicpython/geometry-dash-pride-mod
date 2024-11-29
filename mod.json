@@ -1,0 +1,37 @@
+{
+	"geode": "4.0.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "flingus.geometry_pride",
+	"name": "Geometry Pride",
+	"version": "v1.0.0",
+	"developer": "flingus",
+	"description": "geometry dash but WOEK",
+	"resources": {
+		"spritesheets": {
+			"WokeSheet":[
+				"resources/PrideSheet/*.png"
+			]
+		}
+	},
+	"settings": {
+		"pride": {
+			"type": "int",
+			"name": "Woke Type",
+			"description": "which type of woke are YOU today?!",
+			"default": 9,
+			"min": 0,
+			"max": 9,
+			"control": {
+				"slider": true,
+				"slider-step": 1,
+				"input": true
+			}
+		}
+
+	}
+}
