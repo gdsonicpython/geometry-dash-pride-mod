@@ -7,10 +7,9 @@ class $modify(MyMenuLayer, MenuLayer) {
     bool init() {
         if (!MenuLayer::init()) return false;
 
-		auto ogLogo = this->getChildByID("main-title");
+		auto ogLogo = this->getChildByIDRecursive("main-title");
 		if (!ogLogo) return true;
-
-        auto logo = static_cast<CCSprite*>(ogLogo);
+		auto logo = static_cast<CCSprite*>(ogLogo);
 		auto pos = logo->getPosition();
 		logo->removeMeAndCleanup();
 
@@ -25,7 +24,7 @@ class $modify(MyMenuLayer, MenuLayer) {
 		const int pride = Mod::get()->getSettingValue<int64_t>("pride");
 		if (pride >= 0 && pride <= 9) logo->initWithSpriteFrameName(fmt::format("{}.png"_spr, pride).c_str());
 
-        return true;    
+        	return true;    
 	}
 
 	void openGeometryPrideSettings(CCObject* sender) {
