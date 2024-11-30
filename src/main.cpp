@@ -4,8 +4,8 @@
 using namespace geode::prelude;
 
 class $modify(MyMenuLayer, MenuLayer) {
-    bool init() {
-        if (!MenuLayer::init()) return false;
+	bool init() {
+		if (!MenuLayer::init()) return false;
 
 		auto ogLogo = this->getChildByIDRecursive("main-title");
 		if (!ogLogo) return true;
