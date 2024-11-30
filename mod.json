@@ -10,7 +10,9 @@
 	"version": "v1.0.1",
 	"developer": "flingus",
 	"description": "geometry dash but WOEK",
-	"repository": "https://github.com/flngus/woke",
+	"links": {
+		"source": "https://github.com/flngus/woke"
+	},
 	"resources": {
 		"spritesheets": {
 			"WokeSheet":[
