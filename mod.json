@@ -2,15 +2,15 @@
 	"geode": "4.0.1",
 	"gd": {
 		"win": "2.2074",
-		"android": "2.2074",
 		"mac": "2.2074",
-		"ios": "2.2074"
+		"android": "2.2074"
 	},
 	"id": "flingus.geometry_pride",
 	"name": "Geometry Pride",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "flingus",
 	"description": "geometry dash but WOEK",
+	"repository": "https://github.com/flngus/woke",
 	"resources": {
 		"spritesheets": {
 			"WokeSheet":[
@@ -22,16 +22,22 @@
 		"pride": {
 			"type": "int",
 			"name": "Woke Type",
-			"description": "which type of woke are YOU today?!",
+			"description": "which type of woke are YOU today?!\n\n0: Lesbian, 1: Gay, 2: Bi\n3: Trans, 4: Non-Binary, 5: Intersex\n6: Asexual, 7: Pansexual, 8: Genderfluid\n9: Progress Flag",
 			"default": 9,
 			"min": 0,
 			"max": 9,
 			"control": {
 				"slider": true,
-				"slider-step": 1,
-				"input": true
+				"input": true,
+				"slider-step": 1
 			}
 		}
-
-	}
+	},
+	"incompatibilities": [
+		{
+			"id": "sofabeddd.geometry_dash",
+			"version": "<=v1.1.1",
+			"importance": "breaking"
+		}
+	]
 }
