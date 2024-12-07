@@ -5,6 +5,7 @@
 		"mac": "2.2074",
 		"android": "2.2074"
 	},
+	"early-load": true,
 	"id": "flingus.geometry_pride",
 	"name": "Geometry Pride",
 	"version": "v1.0.1",
@@ -24,10 +25,10 @@
 		"pride": {
 			"type": "int",
 			"name": "Woke Type",
-			"description": "which type of woke are YOU today?!\n\n0: Lesbian, 1: Gay, 2: Bi\n3: Trans, 4: Non-Binary, 5: Intersex\n6: Asexual, 7: Pansexual, 8: Genderfluid\n9: Progress Flag",
+			"description": "which type of woke are YOU today?!\n\n0: Lesbian, 1: Gay, 2: Bi\n3: Trans, 4: Non-Binary, 5: Intersex\n6: Asexual, 7: Pansexual, 8: Genderfluid\n9: Progress Flag\n10: Intersex (Flag Accurate)",
 			"default": 9,
 			"min": 0,
-			"max": 9,
+			"max": 10,
 			"control": {
 				"slider": true,
 				"input": true,
