@@ -25,7 +25,7 @@
 		"pride": {
 			"type": "int",
 			"name": "Woke Type",
-			"description": "which type of woke are YOU today?!\n\n0: Lesbian, 1: Gay, 2: Bi\n3: Trans, 4: Non-Binary, 5: Intersex\n6: Asexual, 7: Pansexual, 8: Genderfluid\n9: Progress Flag\n10: Intersex (Flag Accurate)",
+			"description": "which type of woke are YOU today?!\n\n0: Lesbian, 1: Gay, 2: Bi\n3: Trans, 4: Non-Binary, 5: Intersex\n6: Asexual, 7: Pansexual, 8: Genderfluid\n9: Progress Flag\n10: Intersex (Flag Accurate)\n11: Aromantic",
 			"default": 9,
 			"min": 0,
 			"max": 10,
