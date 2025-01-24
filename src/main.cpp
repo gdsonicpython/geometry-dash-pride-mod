@@ -22,7 +22,7 @@ class $modify(MyMenuLayer, MenuLayer) {
 		this->addChild(menu);
 
 		const int pride = Mod::get()->getSettingValue<int64_t>("pride");
-		if (pride >= 0 && pride <= 10) logo->initWithSpriteFrameName(fmt::format("{}.png"_spr, pride).c_str());
+		if (pride >= 0 && pride <= 11) logo->initWithSpriteFrameName(fmt::format("{}.png"_spr, pride).c_str());
 
         	return true;    
 	}
